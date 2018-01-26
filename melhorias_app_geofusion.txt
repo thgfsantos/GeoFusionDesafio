@@ -1,0 +1,13 @@
+Melhorias
+
+Funcionalidade: Pagina Iicial
+1 - Colocar um acesso com usuário e senha.
+
+Funcionalidade: Listagem de Produtos
+1 - Permitir a ordenação por data e nome do produto, em ordem crescente ou descrente.
+2 - Criar uma paginação para listagem dos produtos, para listar de 5 em 5 produtos.
+3 - Permitir que após uma pesquisa com ou sem sucesso o usuário volte para a tela de listagem de produtos.
+
+Funcionalidade: Cadastrar Produtos
+1 - Adicionar um campo descrição não obrigatório.
+

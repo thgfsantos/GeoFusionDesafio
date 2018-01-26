@@ -1,0 +1,35 @@
+BUGS
+
+Funcionalidade: Pagina inicial
+1 - Título: É permitido o acesso a lista de produtos e criação de novos produtos com qualquer caracter ou em branco no campo de usuários.
+Descrição: Durante os testes a pagina web permiti acesso a lista de produtos e criar novos produtos quando inserido qualquer nome, nomes com caracteres especiais,
+com nomes maiores de 50 caracteres, com nome em branco.
+Severidade: Baixa
+
+
+Funcionalidade: Cadastrar novo produto
+1 -  Título: Esta permitindo criação de um novo produto com nome maior que 50 caracteres.
+Descrição: Durante os testes na criação de novos produtos, é permitido criar um novo produto com nome maior que 50 caracteres.
+Severidade: Alta
+
+2 -  Título: Esta permitindo criação de um novo produto com dia anterior ao atual.
+Descrição:Durante os testes na criação de novos produtos, é permitido criar um novo produto com data anterior ou antiga a data atual.
+Severidade: Alta
+
+3 -  Título: Esta permitindo criação de um novo produto com caracteres especiais.
+Descrição: Ao criar um novo produto é permitido criar com caracteres especiais, tais como %$#@&¨*()!>:<.
+Severidade: Média
+
+4 - Título: Limite do campo preço é atinjido, o preço do produto  fica com R$ 0.
+Descrição: Ao criar um novo produto e adicionar um preço ao produto cujo o valor atinja o limite, ao salvar o produto o seu preço é apresentado com valor R$ 0.
+Severidade: Baixa
+
+5 - Título: Permitido criar  produtos iguais
+Descrição: A aplicação esta permitindo criar um produto já cadastrado (com ambos os valores iguais).
+Serveridade: Media 
+
+
+Pesquisa produto
+1 - Título: Realizar um pesquisa por um produto não cadastrado não volta para listagem de produtos
+Descrição: Ao realizar um pesquisa por um produto não cadastrado, nenhuma informação é apresentada quando o produto não é encontrado e não é possivel voltar para a listagem de produtos mesmo realizando uma pesquisa com valor vazio ou "". Sendo necessário clicar no botão para adicionar um novo produto e no botão cancelar para voltar a listagem de produtos.
+Serveridade: Media
